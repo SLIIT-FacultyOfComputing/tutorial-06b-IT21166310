@@ -1,9 +1,11 @@
 class Student {
-  // private section
-  //    int studentId
-  //    name <- 20 charcters
+   private:// private section
+     int studentId;//    int studentId
+     char name[20];//    name <- 20 charcters
   
-  // public section
-  //    assignDetails() method declaration
-  //    display() method declaration
-};
+  
+   public: // public section
+     void assignDetails(int id,char n); //assignDetails() method declaration
+     int Details(); //    display() method declaration
+ 
+ };
